@@ -1,0 +1,28 @@
+{
+  "name": "html-to-gutenberg-template",
+  "version": "1.0.0",
+	"description": "This is a template for @wordpress/create-block that allows creating blocks powered by HTML To Gutenberg.",
+  "author": "Julien Verneaut <contact@julienverneaut.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jverneaut/html-to-gutenberg-template.git"
+  },
+	"keywords": [
+		"wordpress",
+		"create block",
+		"block template",
+    "gutenberg",
+    "html to gutenberg"
+	],
+  "bugs": {
+    "url": "https://github.com/jverneaut/html-to-gutenberg-template/issues"
+  },
+  "homepage": "https://github.com/jverneaut/html-to-gutenberg-template#readme",
+  "publishConfig": {
+		"access": "public"
+	}
+}
