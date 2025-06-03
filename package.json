@@ -1,6 +1,6 @@
 {
   "name": "html-to-gutenberg-template",
-  "version": "1.1.1",
+  "version": "1.1.2",
 	"description": "This is a template for @wordpress/create-block that allows creating blocks powered by HTML To Gutenberg.",
   "author": "Julien Verneaut <contact@julienverneaut.com>",
   "license": "MIT",
