@@ -1,0 +1,29 @@
+name: Test Create Block HTML To Gutenberg Template
+
+on:
+  push:
+  schedule:
+    - cron: '0 0 * * *' # Every day at midnight UTC
+
+jobs:
+  create-and-build:
+    runs-on: ubuntu-latest
+    name: Create block and build
+
+    steps:
+      - name: Checkout repository (required for push-based triggers)
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Create block using custom template
+        run: npx @wordpress/create-block --template html-to-gutenberg-template example
+
+      - name: Build block
+        run: |
+          cd example
+          npm install
+          npm run build
