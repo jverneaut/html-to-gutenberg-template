@@ -30,7 +30,7 @@ jobs:
 
       - name: Verify expected files exist
         run: |
-          cd example/build/block
+          cd build/block
           test -f block.json || (echo "❌ block.json not found" && exit 1)
           test -f index.js || (echo "❌ index.js not found" && exit 1)
           test -f index.asset.php || (echo "❌ index.asset.php not found" && exit 1)
