@@ -9,6 +9,7 @@ module.exports = {
 		new RemovePlugin({
 			before: {
 				include: ['./src/block.json'],
+				logWarning: false,
 			},
 		}),
 		new HTMLToGutenbergPlugin({
