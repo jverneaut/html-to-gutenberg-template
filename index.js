@@ -8,8 +8,8 @@ module.exports = {
       'remove-files-webpack-plugin',
     ],
     customScripts: {
-      "build": "wp-scripts build --config ./src/webpack.config.js --blocks-manifest",
-      "start": "wp-scripts start --config ./src/webpack.config.js --blocks-manifest",
+      "build": "wp-scripts build --source-path=./generated-blocks --config ./src/webpack.config.js --blocks-manifest",
+      "start": "wp-scripts start --source-path=./generated-blocks --config ./src/webpack.config.js --blocks-manifest",
     }
   },
   blockTemplatesPath: path.join(__dirname, 'block-templates'),
