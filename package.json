@@ -4,6 +4,9 @@
 	"description": "This is a template for @wordpress/create-block that allows creating blocks powered by HTML To Gutenberg.",
   "author": "Julien Verneaut <contact@julienverneaut.com>",
   "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
