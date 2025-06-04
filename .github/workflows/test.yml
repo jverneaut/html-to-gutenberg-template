@@ -20,7 +20,7 @@ jobs:
           node-version: '20'
 
       - name: Create block using custom template
-        run: npx @wordpress/create-block --template html-to-gutenberg-template example
+        run: npx @wordpress/create-block --template ./ example
 
       - name: Build block
         run: |
