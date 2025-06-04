@@ -1,4 +1,4 @@
-![Node LTS](https://img.shields.io/node/v-lts/@jverneaut/html-to-gutenberg-template)
+![Node LTS](https://img.shields.io/node/v-lts/html-to-gutenberg-template)
 
 # Create Block HTML To Gutenberg template
 
